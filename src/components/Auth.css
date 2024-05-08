@@ -1,6 +1,7 @@
 
 
 .authentication {
+    width: 100%;
     margin-top: 40px;
     display: flex;
     align-items: center;
@@ -10,10 +11,10 @@
 }
 
 .auth-container {
+    width: 70%;
     border: 3px solid;
     border-radius: 10px;
     box-shadow:  8px 6px #9d0cfe66;
-    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
