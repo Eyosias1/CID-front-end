@@ -1,34 +1,33 @@
 
-.UserLog {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.form-login {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10%;
-    width: 60%;
-}
 
-form {
+.authentication {
+    margin-top: 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
-    justify-content: center;
     gap: 10px;
-    padding: 0;
-    width: 60%;
 }
 
-.form-login > form > input {
-    width: 100%;
-    padding: 10px 20%;
+.auth-container {
+    border: 3px solid;
+    border-radius: 10px;
+    box-shadow:  8px 6px #9d0cfe66;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.form-login > form > button {
+.toggle-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 40%;
+}
+
+.toggle-buttons > button {
     width: 100%;
     background-color: var(--colorlinks);
     box-shadow:  4px 4px #9d0cfe66;
@@ -45,24 +44,17 @@ form {
     margin: 0 10px 0 10px;
 }
 
-.form-login > form > button:hover {
+.toggle-buttons > button:hover {
     transform: translateY(-2px);
     background-color: var(--colorlinks);
     box-shadow:  0px 15px 10px #9d0cfe66;
     /* box-shadow: none; */
   }
 
-
-  @media (max-width: 650px) {
-    .UserLog {
-        width: 90%;
-        margin: 0;
+  @media (max-width: 600px) {
+    .toggle-buttons {
+        flex-direction: column;
+        gap: 20px;
+        width: 40%;
     }
-    .form-login {
-        width: 90%;
-    }
-    .form-login > form {
-        width: 90%;
-    }
-
   }

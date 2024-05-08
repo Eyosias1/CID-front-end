@@ -25,7 +25,7 @@ function Login({onLoginSuccess}) {
   };
 
   return (
-    <div className='section'>
+    <div className='UserLog section'>
       <div className='form-login'>
         <form onSubmit={handleSubmit}>
             <input
@@ -33,12 +33,14 @@ function Login({onLoginSuccess}) {
               placeholder="Email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              required
             />
             <input
               type="password"
               placeholder="Password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
+              required
             />
             <button type="submit">Login</button>
           </form>

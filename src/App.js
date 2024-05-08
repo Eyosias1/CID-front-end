@@ -5,8 +5,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Contact from './components/Contact';
 import PaymentComponent from './components/PaymentComponent';
-import Login from './components/Login';
-import SignIn from './components/UserRegistration';
+import Auth from './components/Auth';
 import axios from 'axios';
 import "./App.css";
 function App() {
@@ -69,8 +68,7 @@ function App() {
           </React.Fragment>
           ) : (
             <React.Fragment>
-              <Login onLoginSuccess={handleLoginSuccess} />
-              <SignIn onLoginSuccess={handleLoginSuccess} />
+              <Auth  handleLoginSuccess={handleLoginSuccess} />
             </React.Fragment>
           )}
         <Contact />
