@@ -18,7 +18,7 @@ function Authentication( {handleLoginSuccess}) {
         <button onClick={() => toggleForm('signIn')} className={activeForm === 'signIn' ? 'active' : ''}>Sign In</button>
       </div>
       <div className="auth-container">
-        {activeForm === 'login' ? <LoginForm  handleLoginSuccess/> :<SignInForm  onLoginSuccess={handleLoginSuccess}/> }
+        {activeForm === 'login' ? <LoginForm  onLoginSuccess ={handleLoginSuccess}/> :<SignInForm  onLoginSuccess={handleLoginSuccess}/> }
       </div>
     </div>
   );

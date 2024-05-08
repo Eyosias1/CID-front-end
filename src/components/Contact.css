@@ -1,3 +1,8 @@
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 footer{
     margin: 10% 0;
     text-align: center;
@@ -6,8 +11,9 @@ footer{
 .social-icons {
     margin-top: 40px;
     display: flex;
-    gap: 40px;
     justify-content: center;
+    align-items: center;
+    gap: 40px;
     margin: 10% 0;
 }
 .social-icons img {
@@ -21,4 +27,17 @@ svg {
 
 svg:hover {
     fill: var(--colorp2)
+}
+
+@media (max-width: 350px) {
+    .contact {
+        width: 90%;
+    }
+    footer {
+        width: 100%;
+    }
+    .social-icons {
+        width: 100%;
+        gap: 20px;
+    }
 }

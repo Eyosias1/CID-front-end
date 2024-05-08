@@ -68,7 +68,7 @@ function App() {
           </React.Fragment>
           ) : (
             <React.Fragment>
-              <Auth  handleLoginSuccess={handleLoginSuccess} />
+              <Auth  handleLoginSuccess={(email) =>handleLoginSuccess(email)} />
             </React.Fragment>
           )}
         <Contact />

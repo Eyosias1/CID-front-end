@@ -126,7 +126,14 @@
     }
 
     @media (max-width: 600px) {
+      .card2 {
+        width: 100%;
+      }
+      .form-container {
+        width: 70%;
+      }
       .form-container > form {
+        width: 100%;
         padding: 10px;
       }
       .form-group {
