@@ -36,7 +36,7 @@ function App() {
         console.log("Payment status updated to complete.");
       } else {
         setPaymentComplete(false);
-        console.error("Failed to update payment status.");
+        //console.error("Failed to update payment status.");
       }
     } catch (error) {
       console.error("Error updating payment status:", error);
@@ -50,7 +50,7 @@ function App() {
   };
   return (
     <div className="App">
-        <Navbar />
+        <Navbar isLoggedIn={isLoggedIn}/>
         <Hero />
         <InfoCard />
         {isLoggedIn ? (
