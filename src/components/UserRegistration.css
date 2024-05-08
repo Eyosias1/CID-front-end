@@ -7,7 +7,7 @@
     width: 100%;
 }
 .form-signIn {
-    width: 100%;
+    width: 60%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,10 +18,11 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 60%;
 }
 form > input {
     width: 100%;
-    padding: 10% 30%;
+    padding: 10px 10%;
     box-shadow:  8px 6px #9d0cfe66;
     border: 1px solid var(--colorp2);
     border-radius: 5px;
