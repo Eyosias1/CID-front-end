@@ -99,15 +99,18 @@ function FileUploadForm() {
           <div className="form-group">
             <button type="submit">Generate Report</button>
           </div>
+          <div className='form-group'>
+            {downloadLink && (
+              <a href={downloadLink.url} download={downloadLink.filename} className="download-link" onClick={resetForm}>
+                Download PDF
+              </a>
+            )}
+          </div>
           </form>
-          {downloadLink && (
-            <a href={downloadLink.url} download={downloadLink.filename} className="download-link" onClick={resetForm}>
-          Download PDF
-            </a>
-          )}
         </div>
     </div>
   );
 }
+
 
 export default FileUploadForm;
