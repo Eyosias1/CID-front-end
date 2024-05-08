@@ -1,36 +1,3 @@
-/* #info-card {
-  text-align: center;
-  padding: 100px 0px;
-  margin-bottom: 40px;
-}
-#info-card h2 {
-  padding: 15px 0px;
-}
-.info-card {
-  margin-top: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
-  gap: 20px;
-  border: solid;
-} */
-
-/* .info-card .card-2 {
-  flex:1;
-  min-width: 250px;
-  border: solid;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: var(--transition);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(155, 119, 233);
-  color: var(--colorprimary);
-} */
-
-
 #info-card {
     text-align: center;
     padding: 50px 20px;

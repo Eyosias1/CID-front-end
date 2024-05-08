@@ -88,49 +88,6 @@ function InfoCard() {
               <button onClick={nextPage} disabled={currentPage === elements.length - 1}>Next</button>
             </div>
         </div>
-        {/* <div className='card-2'>
-          <h3 onClick={() => toggleExplanation('indemnite')}> Indemnité (Panier Repas) : </h3>
-          {explanations.indemnite && (
-            <div className='explanation'>
-              <p>
-                Saisissez l'indemnité de panier repas
-                correspondante à la convention collective applicable
-              </p>
-              <button>Next Step</button> 
-            </div>
-          )}
-        </div>
-        <div className='card-2'>
-          <h3 onClick={() => toggleExplanation('fichierText')}> Fichier csv  : </h3>
-          {explanations.fichierText && (
-            <div className='explanation'>
-              <p>
-                Chargez le fichier CSV contenant vos
-                données personnelles fournies par votre employeur.
-                Assurez-vous que le fichier inclut bien les colonnes
-                'start date time' et 'end date_time'(peut import le format)
-                pour chaque période travaillée.
-              </p>
-              <button>Next Step</button> 
-            </div>
-          )}
-        </div>
-        <div className='card-2'>
-        <h3 onClick={() => toggleExplanation('fichierText')}> Fichier text:  </h3>
-          {explanations.fichierText && (
-            <div className='explanation'>
-              <p>
-                Veuillez vous assurer que votre fichier
-                texte est formaté correctement avec
-                les colonnes 'date' 'start time'  'end time',
-                sous le format suivant  : AAAA-MM-JJ | HH:MM:SS | HH:MM:SS
-                Chaque entrée doit précisément respecter
-                ce modèle pour garantir un traitement correct des données.
-              </p>
-              <button>Next Step</button> 
-            </div>
-          )}
-        </div> */}
       </div>
     </div>
   );
