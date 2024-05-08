@@ -3,7 +3,7 @@ import "./Contact.css"
 
 function ContactComponent () {
     return (
-            <div className='contact section'> 
+            <div id="Contact" className='contact section'> 
                 <footer>
                     <h3> Connect with me, @eyosias1 on :</h3>
                     <div className='social-icons'>

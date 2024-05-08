@@ -5,7 +5,7 @@ function Hero() {
 
 
     return (
-        <div className='hero section column'>
+        <div id="home" className='hero section column'>
             <div>
                 <h1>Calcule tes Indémnités</h1>
                 <p>A React-based web application

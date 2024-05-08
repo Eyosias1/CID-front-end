@@ -49,7 +49,7 @@ function App() {
   };
   return (
     <div className="App">
-        <Navbar isLoggedIn={isLoggedIn}/>
+        <Navbar status={{isLoggedIn, paymentComplete}}/>
         <Hero />
         <InfoCard />
         {isLoggedIn ? (
