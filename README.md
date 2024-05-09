@@ -1,71 +1,50 @@
-# Getting Started with Create React App
+# CID (Calcule tes Indémnités) App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+CID (Calcule tes Indémnités) is a web application designed to help users calculate their indemnities. It provides a simple and user-friendly interface for users to input relevant information and receive accurate calculations.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### User Authentication
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Users can register and login to access the application features.
+- Secure authentication using JWT tokens for user sessions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Indemnity Calculation
 
-### `npm test`
+- Users can input various parameters such as working hours, salary, and duration of employment to calculate indemnities.
+- The application provides accurate calculations based on user input, considering legal regulations and guidelines.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Payment Integration
 
-### `npm run build`
+- Stripe integration for handling payments.
+- Users can complete payments securely within the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### File Upload
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Users can upload relevant documents or files required for indemnity calculations.
+- File upload functionality is integrated seamlessly into the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
 
-### `npm run eject`
+- **Frontend**: React.js for building the user interface.
+- **Backend**: Node.js for server-side logic and API endpoints.
+- **Database**: MongoDB for storing user data and calculations.
+- **Authentication**: JWT for secure user authentication.
+- **Payment Processing**: Stripe for handling payments securely.
+- **File Storage**: Integration with cloud storage services for file uploads.
+- **Styling**: CSS for custom styling, possibly with additional libraries like Bootstrap or Material UI for components.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Deployment
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- The application is deployed using a cloud platform such as Heroku, Netlify, or Vercel.
+- Continuous integration and deployment (CI/CD) pipelines are set up to automate the deployment process.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Future Enhancements
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# CID-front-end
+- Implement additional features such as multi-language support.
+- Enhance user experience with interactive charts and graphs for visualizing calculations.
+- Integrate with additional payment gateways for flexibility.
+- Implement user roles and permissions for administrative tasks.
+- Improve accessibility and responsiveness for a wider range of devices and users.
